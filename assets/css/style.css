@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Akaya Kanadaka', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/* Header css */
+
+header.header-area {
+    background: #ddd;
+}
+
+header.header-area .logo {
+    width: 200px;
+    height: 75px;
+    margin: 15px 0;
+}
+
+header.header-area .logo img {
+    width: 100%;
+}
+
+.menu {
+    float: right;
+}
+header.header-area .menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    line-height: 86px;
+}
+
+header.header-area .menu ul li {
+    text-transform: capitalize;
+}
+
+header.header-area .menu ul li a {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px;
+    transition: .4s;
+}
+
+header.header-area .menu ul li:hover a {
+    background: #ff6347;
+    color: #fff;
+}
+
+/* Service area css */
+
+section.service-area h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.service-item {
+    background: #008080;
+    padding: 20px;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 10px 0 10px 0;
+}
+
+.service-item h4 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.service-item img {
+    width: 100%;
+}
+
+.service-item p {
+    font-size: 17px;
+    margin: 15px 5px;
+    text-align: justify;
+}
+
+.bttn{
+    background: #ff6347;
+    border: 0;
+    text-transform: capitalize;
+}
+.bttn:hover{
+    background-color: #008080;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* About css area */
+
+section.about-area {
+    margin: 35px 0;
+}
+
+.about-content h4 {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about-content p {
+    font-size: 17px;
+    padding: 5px 0;
+}
+
+.side-bar h4 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.side-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar ul li {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.side-bar ul li a {
+    color: #333;
+    font-weight: 700;
+}
+
+/* Footer css */
+footer {
+    background: #008080;
+    padding: 25px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* About Page css */
+
+.breadcamb {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.breadcamb h2 {
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 900;
+}
+
+/* Contact Page CSS */
+
+.contact-area {
+    margin: 50px 0;
+}
+
+.contact-area h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.contact-form input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    outline: 0;
+    border: 1px solid #ddd;
+    color: #ddd;
+}
+
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+.contact-form a {
+    display: block;
+    color: #fff;
+}
+
+.contact-address ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-address ul li {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
